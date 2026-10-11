@@ -1,5 +1,7 @@
 # Reliable Replay Lab
 
+[![Checks](https://github.com/shayanxcyber/reliable-replay-lab/actions/workflows/checks.yml/badge.svg)](https://github.com/shayanxcyber/reliable-replay-lab/actions/workflows/checks.yml)
+
 A small Python/SQLite experiment showing why retries need stable operation identities and destination receipts. It runs entirely on loopback with authored fictional inputs and Python's standard library.
 
 ## Run it
@@ -46,4 +48,4 @@ This is a serial, bounded fixture experiment. It does not provide a production q
 
 The workflow mechanism was extracted from an earlier local synthetic automation experiment. The fixture data and demonstration runner were authored for this standalone project. Tests exercise real loopback requests and process restart without access to private data.
 
-On 12 October 2026, the standalone demo and all four integration tests passed on Windows with Python 3.13. SQLite connections close explicitly so completed experiments can release their database files. The included workflow is prepared to check Linux/Python 3.10 and 3.13 and Windows/Python 3.13 when the project is published.
+On 12 October 2026, the standalone demo and all four integration tests passed locally on Windows with Python 3.13. [The published test run](https://github.com/shayanxcyber/reliable-replay-lab/actions/runs/38146970617) also passed all four tests on Linux/Python 3.10 and 3.13 and Windows/Python 3.13. SQLite connections close explicitly so completed experiments can release their database files.
