@@ -1,0 +1,8 @@
+{"event_id":"retry-note","title":"Transient delivery","severity":"routine","body":"The receiver returns a controlled first-attempt failure.","fixture":"flaky"}
+{"event_id":"slow-note","title":"Ambiguous response","severity":"routine","body":"The receiver commits before delaying its acknowledgement.","fixture":"slow"}
+{"event_id":"crash-note","title":"Restart delivery","severity":"urgent","body":"The worker exits after receiving the destination receipt.","fixture":"crash"}
+{"event_id":"rejected-note","title":"Permanent rejection","severity":"routine","body":"The receiver rejects this fictional operation.","fixture":"permanent"}
+{"event_id":"retry-note","title":"Transient delivery","severity":"routine","body":"The receiver returns a controlled first-attempt failure.","fixture":"flaky"}
+{"event_id":"retry-note","title":"Changed payload","severity":"routine","body":"A conflicting event must not replace its original payload.","fixture":"flaky"}
+{"event_id":"../outside","title":"Invalid identifier","severity":"routine","body":"Unsafe report names are rejected.","fixture":"normal"}
+{

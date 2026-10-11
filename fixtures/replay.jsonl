@@ -1,0 +1,2 @@
+{"event_id":"release-note","title":"Prepare release note","severity":"routine","body":"Summarize the fictional release for a local review queue.","fixture":"normal"}
+{"event_id":"service-check","title":"Review service check","severity":"urgent","body":"Record the synthetic service-check result.","fixture":"normal"}
